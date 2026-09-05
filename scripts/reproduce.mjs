@@ -10,7 +10,10 @@ assert(selected.length, `Unknown sample: ${requested}`)
 mkdirSync(`${root}.cache/reproduced`, { recursive: true })
 for (const sample of selected) {
  const output = `${root}.cache/reproduced/${sample.id}.json`
- execFileSync('bun', [`${root}.cache/autorouter/audit-report.ts`, `${root}${sample.input}`, output], { timeout: manifest.router.timeoutSeconds * 1000, stdio: 'inherit' })
+ const isPipeline9 = sample.baselinePipeline === 9
+ const worker = isPipeline9 ? 'pipeline9/audit-report-pipeline9.ts' : 'autorouter/audit-report.ts'
+ const timeoutSeconds = isPipeline9 ? manifest.additionalAudit.timeoutSeconds : manifest.router.timeoutSeconds
+ execFileSync('bun', [`${root}.cache/${worker}`, `${root}${sample.input}`, output], { timeout: timeoutSeconds * 1000, stdio: 'inherit' })
  const actual = JSON.parse(readFileSync(output))
  const expected = JSON.parse(readFileSync(`${root}${sample.evidence}`))
  assert(actual.solved && !actual.failed, `${sample.id}: routing did not complete`)

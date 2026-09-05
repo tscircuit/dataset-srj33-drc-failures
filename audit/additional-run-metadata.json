@@ -1,0 +1,16 @@
+{
+  "routerCommit": "0f18c99a09d19d8e690bb1767eef0c86ba80473e",
+  "auditCommit": "58c8380d6065a46ba573f937b9a283bdc01d22d6",
+  "solver": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+  "options": {
+    "effort": 1
+  },
+  "preprocessing": "migrateLegacyObstacleCircuitJsonMetadata",
+  "timeoutSeconds": 1200,
+  "concurrency": 8,
+  "bunVersion": "1.4.1",
+  "workflowRunId": "33980539076",
+  "workflowRunAttempt": "1",
+  "runnerOs": "Linux",
+  "runnerArch": "ARM64"
+}
