@@ -14,3 +14,9 @@ jobs:
           bun-version: 1.4.1
       - run: bun run setup:runtime
       - run: bun run verify:drc
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/requirements-verification.txt
+      - run: python scripts/test-geometry-verifier.py
+      - run: python scripts/verify-geometry.py

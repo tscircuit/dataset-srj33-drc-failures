@@ -34,6 +34,7 @@
     "validate": "node scripts/validate.mjs",
     "setup:runtime": "node scripts/setup-runtime.mjs",
     "verify:drc": "node scripts/verify-drc.mjs",
-    "reproduce": "node scripts/reproduce.mjs"
+    "reproduce": "node scripts/reproduce.mjs",
+    "verify:geometry": "python3 scripts/verify-geometry.py"
   }
 }

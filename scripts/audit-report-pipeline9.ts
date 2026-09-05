@@ -19,8 +19,8 @@ try {
     const drc = evaluateRelaxedDrc({ inputSrj: effectiveInput, srjWithPointPairs: pointPairs, routedTraces: traces })
     const qualifies = traces.length > 0 && drc.errors.length > 0
     result = { ...result, status: qualifies ? 'qualifies' : 'drc-passed', traceCount: traces.length, drcErrorCount: drc.errors.length }
-    if (qualifies) {
-      result = { ...result, errors: drc.errors, effectiveInputSrj: effectiveInput,
+    if (true) {
+      result = { ...result, errors: drc.errors, circuitJson: drc.circuitJson, effectiveInputSrj: effectiveInput,
         routedSrj: { ...originalInput, traces: combinePreloadedAndRoutedTraces(originalInput.traces ?? [], traces) },
         pointPairSrj: pointPairs, routedTraces: traces }
     }
