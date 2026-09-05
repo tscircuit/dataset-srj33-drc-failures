@@ -1,0 +1,39 @@
+{
+  "name": "@tscircuit/dataset-srj33-drc-failures",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./manifest.json": "./manifest.json",
+    "./samples/*": "./samples/*",
+    "./routed/*": "./routed/*",
+    "./evidence/*": "./evidence/*"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "manifest.json",
+    "samples",
+    "routed",
+    "evidence",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscircuit/dataset-srj33-drc-failures.git"
+  },
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs",
+    "setup:runtime": "node scripts/setup-runtime.mjs",
+    "verify:drc": "node scripts/verify-drc.mjs",
+    "reproduce": "node scripts/reproduce.mjs"
+  }
+}

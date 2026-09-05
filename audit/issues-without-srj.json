@@ -1,0 +1,688 @@
+[
+  {
+    "issueNumber": 2156,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/2156",
+    "title": "Default 4-layer routing emits blind/buried vias without an opt-in or fabrication constraint",
+    "createdAt": "2026-08-18T21:41:48Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 2123,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/2123",
+    "title": "Autorouting Bug Report: Pipeline 7 traceSimplificationSolver timeout (>2h40m)",
+    "createdAt": "2026-08-15T16:43:00Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 2011,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/2011",
+    "title": "Stream actionable pre-routing errors while the autorouter is running",
+    "createdAt": "2026-08-08T06:26:02Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1801,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1801",
+    "title": "SingleHighDensityRouteStitchSolver3 terminal identity disagrees with route orientation for \"source_net_7\" (capacity-autorouter@0.0.722)",
+    "createdAt": "2026-07-30T18:58:56Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1797,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1797",
+    "title": "Minor C5 movement avoids SingleHighDensityRouteStitchSolver3 terminal identity error",
+    "createdAt": "2026-07-30T15:49:01Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1749,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1749",
+    "title": "Use obstacle offBoardConnectsTo groups when generating point pairs",
+    "createdAt": "2026-07-22T18:40:23Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1748,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1748",
+    "title": "Generate legal escape topology for out-of-bounds connector components",
+    "createdAt": "2026-07-22T18:40:22Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1747,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1747",
+    "title": "Detect structural no-path routes before SelectiveRerip iteration exhaustion",
+    "createdAt": "2026-07-22T18:40:21Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1746,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1746",
+    "title": "SRJ-23: fix the remaining Pipeline 7 completion failures",
+    "createdAt": "2026-07-22T18:40:20Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1745,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1745",
+    "title": "SRJ-23 sample 002: restore missing topology for disconnected target regions",
+    "createdAt": "2026-07-22T18:40:19Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1614,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1614",
+    "title": "TopologyMergingSolver crashes on zero-area \"global\" mesh node (\"invalid bounds\"), emptying the PCB preview",
+    "createdAt": "2026-07-13T14:47:44Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1528,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1528",
+    "title": "Trace left as disconnected same-layer fragments near a pad (net not stitched to completion)",
+    "createdAt": "2026-07-07T15:23:57Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1525,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1525",
+    "title": "getEffortScale returns NaN for undefined effort -> MAX_ITERATIONS NaN -> instant 'ran out of iterations'",
+    "createdAt": "2026-07-07T13:56:04Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1524,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1524",
+    "title": "Static reachability precheck false-positives: aborts a simple 2-layer board (57 of ~80 routes flagged)",
+    "createdAt": "2026-07-07T10:47:36Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1523,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1523",
+    "title": "obstacleMargin / defaultObstacleMargin has no effect on produced clearance (non-monotonic)",
+    "createdAt": "2026-07-07T09:52:19Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 1507,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/1507",
+    "title": "Same-layer crossings can survive to output as net shorts (crossings modeled as via-resolvable, not guaranteed resolved)",
+    "createdAt": "2026-07-06T11:49:13Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 743,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/743",
+    "title": "Port fix for wild trace jumps in MultilayerIjump from archived autorouting repo",
+    "createdAt": "2026-03-31T06:37:10Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 653,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/653",
+    "title": "missing segments",
+    "createdAt": "2026-03-12T13:28:46Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 651,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/651",
+    "title": "missing path segments",
+    "createdAt": "2026-03-12T13:10:40Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 650,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/650",
+    "title": "bad board path; using the Pipeline3 Hg Solver",
+    "createdAt": "2026-03-12T13:09:45Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 636,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/636",
+    "title": "Create dataset of hypergraph port point pathing problems that can be optimized via the HyperGraphSectionOptimizer",
+    "createdAt": "2026-03-09T04:27:37Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 628,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/628",
+    "title": "Create a bug report with the following example circuit json",
+    "createdAt": "2026-03-05T19:07:31Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 622,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/622",
+    "title": "Select HyperIntraNode default MAX_ITERATIONS at effort=1",
+    "createdAt": "2026-03-04T07:05:57Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 575,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/575",
+    "title": "The AutoroutingPipelineSolver3_HgPortPointPathing solver fails to route with this configuration, while the legacy solver handles it successfully.",
+    "createdAt": "2026-02-20T05:36:46Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 574,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/574",
+    "title": "Fix overlapping obstacles in generated SRJ files",
+    "createdAt": "2026-02-20T05:28:04Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 572,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/572",
+    "title": "We are seeing \"inner1\" and \"inner2\" in a 2-layer board in the simple route json",
+    "createdAt": "2026-02-19T16:53:47Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 570,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/570",
+    "title": "Assertion Failure Caused by Incorrect layer in pointsToConnect (SimpleRouteJson / circuit102)",
+    "createdAt": "2026-02-18T12:26:20Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 427,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/427",
+    "title": "fix pipeline1-bug1.test.tsx",
+    "createdAt": "2025-12-20T12:37:32Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 369,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/369",
+    "title": "SameNetViaMerger needs to run after path simplification steps",
+    "createdAt": "2025-12-06T20:11:10Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 368,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/368",
+    "title": "SameNetViaMergerSolver: Vias are moved, not truly merged (data representation limitation)",
+    "createdAt": "2025-12-06T20:08:12Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 354,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/354",
+    "title": "Go to Iteration Doesn't work Once Solved",
+    "createdAt": "2025-11-30T15:50:24Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 351,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/351",
+    "title": "regression  tests/__snapshots__/e2e1.snap.svg",
+    "createdAt": "2025-11-29T17:23:30Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 350,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/350",
+    "title": "regression tests/bugs/__snapshots__/bugreport7-d3f3be.snap.svg",
+    "createdAt": "2025-11-29T17:22:01Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 349,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/349",
+    "title": "regression tests/__snapshots__/core1.snap.svg",
+    "createdAt": "2025-11-29T17:20:59Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 348,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/348",
+    "title": "skipping polygon-outline02.test.ts",
+    "createdAt": "2025-11-29T17:19:28Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 347,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/347",
+    "title": "skipping bugreport7-d3f3be.test.ts",
+    "createdAt": "2025-11-29T17:19:12Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 346,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/346",
+    "title": "skipping bugreport13-b9a758.test.ts",
+    "createdAt": "2025-11-29T17:18:38Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 345,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/345",
+    "title": "Regression",
+    "createdAt": "2025-11-29T17:18:03Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 343,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/343",
+    "title": "The unravel phase should be able to alter the layer of the start/end of a route (it should be allowed to modify it) if the target capacity node that the pointToConnect is in has availableZ spanning multiple layers",
+    "createdAt": "2025-11-28T06:41:28Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 301,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/301",
+    "title": "Autorouter support for 0ohm resistor arrays (jumper arrays)",
+    "createdAt": "2025-11-08T21:26:20Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 296,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/296",
+    "title": "Issue with top layer straw node solving",
+    "createdAt": "2025-10-31T16:54:16Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 285,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/285",
+    "title": "Fix whatever is causing e2e3 to not fully route",
+    "createdAt": "2025-10-09T17:01:00Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 249,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/249",
+    "title": "/bounty is broken",
+    "createdAt": "2025-09-21T15:34:28Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 191,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/191",
+    "title": "Multi Head Solver only running for one iteration (highdensity79)",
+    "createdAt": "2025-07-07T15:58:42Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 186,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/186",
+    "title": "autorouter placing vias on top of smtpads",
+    "createdAt": "2025-07-04T22:22:46Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 166,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/166",
+    "title": "json file does not contain nodeWithPortPoints property giving type error",
+    "createdAt": "2025-06-25T15:01:25Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 152,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/152",
+    "title": "type error",
+    "createdAt": "2025-06-17T16:54:35Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 140,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/140",
+    "title": "Autorouting Bug Report: pcb_trace overlap error",
+    "createdAt": "2025-06-10T15:41:22Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 126,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/126",
+    "title": "Create a fixture that accepts autorouting_bug_report_id as a GET parameter for dynamically loading bug reports",
+    "createdAt": "2025-05-14T18:36:42Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 120,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/120",
+    "title": "Data Buses",
+    "createdAt": "2025-05-08T21:50:38Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 119,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/119",
+    "title": "Introduce \"Combine Same-Net Vias\" phase",
+    "createdAt": "2025-05-08T21:45:44Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 117,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/117",
+    "title": "Optimize Typescript typecheck speed (debug whatever is making it slow)",
+    "createdAt": "2025-05-07T14:25:55Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 116,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/116",
+    "title": "Pathing Section Solver visualization does not correctly isolate to a small section when used with the CapacityPathingMultiSectionSolver",
+    "createdAt": "2025-05-07T14:20:33Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 115,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/115",
+    "title": "`ledmatrix4` issue: greedy solver is over-penalized for using single layer low capacity node without minimum entry cost consideration",
+    "createdAt": "2025-05-07T14:11:58Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 112,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/112",
+    "title": "Add and remove vias dynamically from the MultiHeadPolyline (force directed) solver",
+    "createdAt": "2025-05-05T13:39:58Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 111,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/111",
+    "title": "Shim the autorouter for safari support",
+    "createdAt": "2025-05-02T02:02:28Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 102,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/102",
+    "title": "Convert the SegmentTree to be able to use an rbush or flattree spatial index",
+    "createdAt": "2025-04-25T21:37:21Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 100,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/100",
+    "title": "Test speed of spatial indexes using rbush",
+    "createdAt": "2025-04-25T00:16:03Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 99,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/99",
+    "title": "Multi-Head HD PolyLine Solver- Don't use centroids where a via cannot possibly fit (in initial candidates)",
+    "createdAt": "2025-04-23T03:49:31Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 98,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/98",
+    "title": "minVias across all traces is insufficient for initial candidates in MultiHeadPolyLineIntraNodeSolver",
+    "createdAt": "2025-04-22T21:19:20Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 92,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/92",
+    "title": "Attempt \"segment layer swap\" for 4 via pattern",
+    "createdAt": "2025-04-10T21:47:23Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 91,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/91",
+    "title": "Implement \u201cclean same-net traces\u201d (adjacent same-net traces should run touching and parallel)",
+    "createdAt": "2025-04-07T21:42:48Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 90,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/90",
+    "title": "\"Via Position Simplification\" (possibly as part of path simplification) by seeing if the via can be moved to make the path any shorter",
+    "createdAt": "2025-03-30T05:22:43Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 84,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/84",
+    "title": "Uncaught DRC Issue in `keyboard4`",
+    "createdAt": "2025-03-27T06:33:13Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 83,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/83",
+    "title": "Fix segments sometimes on wrong layer after vias (keyboard4 issue)",
+    "createdAt": "2025-03-27T06:29:43Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 79,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/79",
+    "title": "`keyboard4` DRC issue with close traces due to trace simplification stage",
+    "createdAt": "2025-03-26T00:10:54Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 76,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/76",
+    "title": "Keyboard4 diode via issue on far right side",
+    "createdAt": "2025-03-22T17:08:05Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 74,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/74",
+    "title": "HyperCapacityPathing to fix capacity pathing issues",
+    "createdAt": "2025-03-21T23:20:27Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 71,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/71",
+    "title": "Fix keyboard4 routing",
+    "createdAt": "2025-03-21T17:58:01Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 69,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/69",
+    "title": "Support for minimum spanning tree with indirectly connected connections",
+    "createdAt": "2025-03-21T17:01:49Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 66,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/66",
+    "title": "Implement trace thickness as a parameter",
+    "createdAt": "2025-03-20T07:08:20Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 65,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/65",
+    "title": "Determine a strategy for how to merge routes that are going to the same destination",
+    "createdAt": "2025-03-20T06:59:05Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 64,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/64",
+    "title": "Implement useless via removal stage",
+    "createdAt": "2025-03-20T06:57:36Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 63,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/63",
+    "title": "Multi-section Unravel Stage seems to do many more iterations than required, there are no graphs of loss to help guide hyper parameter adjustment",
+    "createdAt": "2025-03-20T06:55:48Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 62,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/62",
+    "title": "Figure out why the autorouter is failing on this board and fix",
+    "createdAt": "2025-03-20T06:45:38Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 61,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/61",
+    "title": "Introduce Caching for HyperHighDensitySolver",
+    "createdAt": "2025-03-20T06:42:45Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 58,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/58",
+    "title": "Closed-form High Density Solution for Crossing Routes",
+    "createdAt": "2025-03-18T00:53:30Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 53,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/53",
+    "title": "Allow merging traces during unravelling",
+    "createdAt": "2025-03-15T23:05:51Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 51,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/51",
+    "title": "Capacity Path Planning needs to penalize when the entry node has limited z options, or require coming from a different availableZ to have more capacity",
+    "createdAt": "2025-03-15T01:50:50Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 50,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/50",
+    "title": "In high density stage, allow movement of points along segment if they come from \"zero risk\" nodes",
+    "createdAt": "2025-03-15T01:50:10Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 49,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/49",
+    "title": "Implement KD-tree optimizer for obstacle/segment collisions inside the multi simplified path solver",
+    "createdAt": "2025-03-15T01:34:13Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 48,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/48",
+    "title": "Allow Segment Point Movement along segment in UnravelOptimizer (or in post-processing)",
+    "createdAt": "2025-03-15T01:31:19Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 47,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/47",
+    "title": "Multi-Head High Density Autorouter",
+    "createdAt": "2025-03-15T01:27:01Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 46,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/46",
+    "title": "Add segment point option \"via on segment\" to reduce high density risk",
+    "createdAt": "2025-03-15T01:23:08Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 43,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/43",
+    "title": "Dead End Elimination (prior to capacity planning)",
+    "createdAt": "2025-03-14T18:10:36Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 39,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/39",
+    "title": "Path smoothing phase of autorouter (make things 45 degree angles)",
+    "createdAt": "2025-03-10T20:49:05Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 36,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/36",
+    "title": "Path under Pad Implementation",
+    "createdAt": "2025-03-08T02:26:23Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 30,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/30",
+    "title": "High Density Routes are too close to boundary of node",
+    "createdAt": "2025-03-04T06:34:03Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 26,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/26",
+    "title": "Handle other trace obstacles (enables subcircuit autorouting without colliding with other subcircuits)",
+    "createdAt": "2025-02-28T00:36:24Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 19,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/19",
+    "title": "Confused high density solver with segments containing same connectivity net points",
+    "createdAt": "2025-02-26T06:12:05Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 16,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/16",
+    "title": "IntraNodePostProcessor - Remove unnecessary vias after entire capacity node is solved",
+    "createdAt": "2025-02-24T23:50:37Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 15,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/15",
+    "title": "Automatic Capacity Node Depth Solving (vs specifying depth as hyper parameter)",
+    "createdAt": "2025-02-24T23:13:24Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 14,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/14",
+    "title": "Section Solver for More Predictable Segment Point Optimization",
+    "createdAt": "2025-02-24T23:12:35Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 10,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/10",
+    "title": "Contested Ownership isn't properly handled with targets",
+    "createdAt": "2025-02-23T03:19:25Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 9,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/9",
+    "title": "Patch Solver",
+    "createdAt": "2025-02-22T23:50:21Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 7,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/7",
+    "title": "Allow target mesh nodes to connect more than one obstacle",
+    "createdAt": "2025-02-22T07:17:47Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 6,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/6",
+    "title": "Connection Map at High Density Stage to ignore obstacles",
+    "createdAt": "2025-02-22T07:16:09Z",
+    "status": "no-extracted-srj-in-issue-body"
+  },
+  {
+    "issueNumber": 4,
+    "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/4",
+    "title": "Prevent Via Overlap",
+    "createdAt": "2025-02-22T01:07:38Z",
+    "status": "no-extracted-srj-in-issue-body"
+  }
+]
