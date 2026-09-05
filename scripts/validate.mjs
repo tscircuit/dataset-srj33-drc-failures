@@ -5,10 +5,16 @@ import samples from '../index.js'
 const read = (p) => readFileSync(new URL(`../${p}`, import.meta.url))
 const manifest = JSON.parse(read('manifest.json'))
 const audit = JSON.parse(read('audit/candidates.json'))
-assert.equal(manifest.sampleCount, 31)
+assert.equal(manifest.sampleCount, 12)
 assert.equal(Object.keys(samples).length, manifest.sampleCount)
 assert.equal(audit.length, manifest.candidateCount)
 assert.equal(audit.filter(c => c.status === 'included').length, manifest.sampleCount)
+const benchmarkBytes = read(manifest.pipeline9Filter.resultFile)
+assert.equal(createHash('sha256').update(benchmarkBytes).digest('hex'), manifest.pipeline9Filter.resultSha256)
+const benchmark = JSON.parse(benchmarkBytes)
+const retained = benchmark.snapshots.filter(s => s.drcErrorCount > 0)
+assert.deepEqual(manifest.samples.map(s => s.id), retained.map(s => s.scenarioName))
+assert.equal(retained.reduce((sum, s) => sum + s.drcErrorCount, 0), 150)
 const hashes = new Set()
 for (const [i, sample] of manifest.samples.entries()) {
   if (i) assert(manifest.samples[i-1].issueCreatedAt >= sample.issueCreatedAt)
@@ -21,6 +27,9 @@ for (const [i, sample] of manifest.samples.entries()) {
   assert.equal(source.issue, sample.issueNumber)
   assert.equal(source.url, sample.issueUrl)
   if (source.sourceUrl) assert.equal(source.sourceUrl, sample.sourceUrl)
+  const measured = retained.find(s => s.scenarioName === sample.id)
+  assert.deepEqual(sample.pipeline9Benchmark, measured)
+  assert(measured.drcErrorCount > 0 && measured.relaxedDrcPassed === false)
   const input = samples[sample.id]
   assert.deepEqual(input, JSON.parse(read(sample.input)))
   assert(Array.isArray(input.connections) && input.connections.length > 0)
@@ -48,4 +57,4 @@ for (const [i, sample] of manifest.samples.entries()) {
 }
 assert.equal(hashes.size, manifest.uniqueInputCount)
 assert.equal(readdirSync(new URL('../samples', import.meta.url)).length, manifest.sampleCount)
-console.log(`Validated ${manifest.sampleCount} reports, ${hashes.size} unique SRJs, ${manifest.samples.reduce((sum,s) => sum+s.drcErrorCount,0)} DRC errors.`)
+console.log(`Validated ${manifest.sampleCount} reports, ${hashes.size} unique SRJs, ${manifest.samples.reduce((sum,s) => sum+s.drcErrorCount,0)} historical Pipeline 7 DRC errors; 150 Pipeline 9 selection errors.`)

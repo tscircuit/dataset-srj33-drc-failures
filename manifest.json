@@ -5,8 +5,8 @@
   "sourceRepository": "https://github.com/tscircuit/tscircuit-autorouter",
   "sourceIssueCount": 191,
   "candidateCount": 96,
-  "sampleCount": 31,
-  "uniqueInputCount": 28,
+  "sampleCount": 12,
+  "uniqueInputCount": 12,
   "router": {
     "repository": "https://github.com/tscircuit/tscircuit-autorouter",
     "commit": "450af9cb90d50880a96f62e9babafc79678031a1",
@@ -25,7 +25,7 @@
     "viaClearance": 0.1,
     "units": "mm"
   },
-  "selection": "All downloadable issue-body bug-report SRJs and attached/gist SRJs, ordered by issue creation date descending; solver.solved && !solver.failed && traceCount > 0 && drcErrorCount > 0. Separate reports with identical SRJs are retained and marked duplicateOf. Gist files explicitly naming another board are excluded after issue-body attribution review.",
+  "selection": "All downloadable issue-body bug-report SRJs and attached/gist SRJs, ordered by issue creation date descending; solver.solved && !solver.failed && traceCount > 0 && drcErrorCount > 0. Separate reports with identical SRJs are retained and marked duplicateOf. Gist files explicitly naming another board are excluded after issue-body attribution review. Filtered using the supplied Pipeline 9 benchmark: retain only snapshots with drcErrorCount > 0. Original sample IDs and Pipeline 7 baseline evidence are preserved.",
   "samples": [
     {
       "id": "sample001",
@@ -48,7 +48,19 @@
       },
       "traceCount": 45,
       "durationMs": 2192.168459,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample001",
+        "sampleNumber": 1,
+        "label": "srj33 sample 1 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 24612.681042,
+        "traceCount": 45,
+        "viaCount": 39,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 2
+      }
     },
     {
       "id": "sample002",
@@ -71,7 +83,19 @@
       },
       "traceCount": 171,
       "durationMs": 56093.33425,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample002",
+        "sampleNumber": 2,
+        "label": "srj33 sample 2 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 264638.659854,
+        "traceCount": 190,
+        "viaCount": 146,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 1
+      }
     },
     {
       "id": "sample003",
@@ -94,7 +118,19 @@
       },
       "traceCount": 61,
       "durationMs": 46611.875416,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample003",
+        "sampleNumber": 3,
+        "label": "srj33 sample 3 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 117291.732067,
+        "traceCount": 61,
+        "viaCount": 118,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 20
+      }
     },
     {
       "id": "sample004",
@@ -116,7 +152,19 @@
       },
       "traceCount": 87,
       "durationMs": 64974.210333,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample004",
+        "sampleNumber": 4,
+        "label": "srj33 sample 4 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 141316.871613,
+        "traceCount": 87,
+        "viaCount": 49,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 1
+      }
     },
     {
       "id": "sample005",
@@ -139,7 +187,19 @@
       },
       "traceCount": 78,
       "durationMs": 53511.309584,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample005",
+        "sampleNumber": 5,
+        "label": "srj33 sample 5 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 237785.132454,
+        "traceCount": 77,
+        "viaCount": 90,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 79
+      }
     },
     {
       "id": "sample006",
@@ -161,73 +221,19 @@
       },
       "traceCount": 17,
       "durationMs": 1397.0803329999999,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample007",
-      "issueNumber": 721,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/721",
-      "issueTitle": "Autorouting Bug Report: <board#569 />",
-      "issueCreatedAt": "2026-03-27T11:06:00Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=2484aca1-5b97-4e89-ab2d-f4cbf26bff4b&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample007.json",
-      "routed": "routed/sample007.json",
-      "evidence": "evidence/sample007.json",
-      "inputSha256": "c7561280c71962bfed8e6c5acd755469fcdfdd82916854a52c3d2626d5bb1afe",
-      "routedSha256": "b93b8faf4e5350c2eaeca4d564b7369289b4b987535ce039315ba0ea9400e133",
-      "evidenceSha256": "c891cbc40be2d3532ca13407234ea7910c00eaa804039dca9660c5c8e64b5e4a",
-      "drcErrorCount": 1,
-      "drcErrorTypes": {
-        "pcb_pad_trace_clearance_error": 1
-      },
-      "traceCount": 109,
-      "durationMs": 38199.92425,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample008",
-      "issueNumber": 720,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/720",
-      "issueTitle": "Autorouting Bug Report: <board#569 />",
-      "issueCreatedAt": "2026-03-27T11:02:29Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=d890802a-17b1-4fc8-a878-9442122d0286&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample008.json",
-      "routed": "routed/sample008.json",
-      "evidence": "evidence/sample008.json",
-      "inputSha256": "c7561280c71962bfed8e6c5acd755469fcdfdd82916854a52c3d2626d5bb1afe",
-      "routedSha256": "b93b8faf4e5350c2eaeca4d564b7369289b4b987535ce039315ba0ea9400e133",
-      "evidenceSha256": "c891cbc40be2d3532ca13407234ea7910c00eaa804039dca9660c5c8e64b5e4a",
-      "drcErrorCount": 1,
-      "drcErrorTypes": {
-        "pcb_pad_trace_clearance_error": 1
-      },
-      "traceCount": 109,
-      "durationMs": 38071.94425,
-      "duplicateOf": "sample007"
-    },
-    {
-      "id": "sample009",
-      "issueNumber": 178,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/178",
-      "issueTitle": "Autorouting Bug Report: <group#602 name=\".LedN\" />",
-      "issueCreatedAt": "2025-06-30T04:47:34Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=2807d7a9-517f-4824-831f-ff6b2d2d299a&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample009.json",
-      "routed": "routed/sample009.json",
-      "evidence": "evidence/sample009.json",
-      "inputSha256": "c4ab9c40514c17ac165dce030303afc97b797ab4d43a13fa2ed76f27bc20ead9",
-      "routedSha256": "1ba1462eb63ced942cb491c0a13d298d01f2240e73058b1db80d0a6888c024b5",
-      "evidenceSha256": "711b860c31474dc4fa80eba2e56a2677406cbadd321939af21a5b3a62a22b55e",
-      "drcErrorCount": 56,
-      "drcErrorTypes": {
-        "pcb_trace_error": 56
-      },
-      "traceCount": 84,
-      "durationMs": 1517.200458,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample006",
+        "sampleNumber": 6,
+        "label": "srj33 sample 6 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 6480.69736,
+        "traceCount": 17,
+        "viaCount": 10,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 1
+      }
     },
     {
       "id": "sample010",
@@ -249,7 +255,19 @@
       },
       "traceCount": 44,
       "durationMs": 5135.227207999999,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample010",
+        "sampleNumber": 10,
+        "label": "srj33 sample 10 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 13963.186982000001,
+        "traceCount": 44,
+        "viaCount": 61,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 9
+      }
     },
     {
       "id": "sample011",
@@ -271,7 +289,19 @@
       },
       "traceCount": 31,
       "durationMs": 2516.6,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample011",
+        "sampleNumber": 11,
+        "label": "srj33 sample 11 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 8693.632092999998,
+        "traceCount": 31,
+        "viaCount": 25,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 2
+      }
     },
     {
       "id": "sample012",
@@ -293,7 +323,19 @@
       },
       "traceCount": 33,
       "durationMs": 981.4319159999999,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample012",
+        "sampleNumber": 12,
+        "label": "srj33 sample 12 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 5281.079684,
+        "traceCount": 33,
+        "viaCount": 32,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 7
+      }
     },
     {
       "id": "sample013",
@@ -315,139 +357,19 @@
       },
       "traceCount": 33,
       "durationMs": 950.84,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample014",
-      "issueNumber": 162,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/162",
-      "issueTitle": "Autorouting Bug Report: <board#333 />",
-      "issueCreatedAt": "2025-06-24T17:03:06Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=2931c01a-0d0b-4948-8b5c-63da32512890&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample014.json",
-      "routed": "routed/sample014.json",
-      "evidence": "evidence/sample014.json",
-      "inputSha256": "d30bf140409ed548e0d0bf284f4a89535330d189f8240b5d18afb03f06e7f13b",
-      "routedSha256": "6cd2b98d81a95e09e701ba96bea02f41ca6ca2b2c2130142c8aaf55bfd57529e",
-      "evidenceSha256": "6a356b5e1359adc01ad6ae4729bd4ca960b493ac55cd51ca6aa87a2a37714070",
-      "drcErrorCount": 10,
-      "drcErrorTypes": {
-        "pcb_trace_error": 10
-      },
-      "traceCount": 31,
-      "durationMs": 1241.3957919999998,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample015",
-      "issueNumber": 160,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/160",
-      "issueTitle": "Autorouting Bug Report: <board#137 />",
-      "issueCreatedAt": "2025-06-22T19:00:13Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=3f9c7508-c29a-432e-8ea7-cfbba54954e8&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample015.json",
-      "routed": "routed/sample015.json",
-      "evidence": "evidence/sample015.json",
-      "inputSha256": "2147f53c3613dfcfb32b76389aee8795b156b186eb26a2b32e7bcb03b8fde5bb",
-      "routedSha256": "959bd3fe0f484289c12884815703001afd1147fdc0f785a8a6c47468c08b224e",
-      "evidenceSha256": "d4f902037b689d37b8e2b943670a789c267bc36bc399d14228873ebab75d8c21",
-      "drcErrorCount": 26,
-      "drcErrorTypes": {
-        "pcb_trace_error": 26
-      },
-      "traceCount": 20,
-      "durationMs": 569.819542,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample016",
-      "issueNumber": 159,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/159",
-      "issueTitle": "Autorouting Bug Report: <board#14470 />",
-      "issueCreatedAt": "2025-06-22T18:58:47Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=b84a5a83-93e8-4a8c-97b8-608f22902e92&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample016.json",
-      "routed": "routed/sample016.json",
-      "evidence": "evidence/sample016.json",
-      "inputSha256": "2147f53c3613dfcfb32b76389aee8795b156b186eb26a2b32e7bcb03b8fde5bb",
-      "routedSha256": "959bd3fe0f484289c12884815703001afd1147fdc0f785a8a6c47468c08b224e",
-      "evidenceSha256": "d4f902037b689d37b8e2b943670a789c267bc36bc399d14228873ebab75d8c21",
-      "drcErrorCount": 26,
-      "drcErrorTypes": {
-        "pcb_trace_error": 26
-      },
-      "traceCount": 20,
-      "durationMs": 609.1582080000001,
-      "duplicateOf": "sample015"
-    },
-    {
-      "id": "sample017",
-      "issueNumber": 158,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/158",
-      "issueTitle": "Autorouting Bug Report: <group#62 name=\".Letter4\" />",
-      "issueCreatedAt": "2025-06-22T15:51:45Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=34b4f502-9547-4c80-a150-193557efcf9e&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample017.json",
-      "routed": "routed/sample017.json",
-      "evidence": "evidence/sample017.json",
-      "inputSha256": "8c098a842895b531dcaabaed96f2fd0d9a543ad0775e6c30e2e72468ade4b27e",
-      "routedSha256": "e398bc71e5bfddc82fad46251be0e26d4ea47cb795bd516f60cf79bf56ab28db",
-      "evidenceSha256": "be598e91f990bd9ffe4add12a7fc80c52d5d4e8e51c1006b66e062b1ee4f89a2",
-      "drcErrorCount": 12,
-      "drcErrorTypes": {
-        "pcb_trace_error": 12
-      },
-      "traceCount": 18,
-      "durationMs": 1443.4132499999998,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample018",
-      "issueNumber": 157,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/157",
-      "issueTitle": "Autorouting Bug Report: <board#175 /> : there are overlapping vias",
-      "issueCreatedAt": "2025-06-21T15:49:33Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=afc8958a-8760-43e2-9f10-9ac7ed182690&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample018.json",
-      "routed": "routed/sample018.json",
-      "evidence": "evidence/sample018.json",
-      "inputSha256": "88a9b591224da858df45af1a1fd3fade459a4b7860bed4b5ff75bd4e32e8e035",
-      "routedSha256": "bc7b43e1db698853507ca115861c54eb8d7fcc5dc5e3ed9cc69eb76996da0460",
-      "evidenceSha256": "c72497aa3de4c984a4002cb3f71e4e3f33874683049eb2dbdbd90f734be2298f",
-      "drcErrorCount": 4,
-      "drcErrorTypes": {
-        "pcb_trace_error": 4
-      },
-      "traceCount": 16,
-      "durationMs": 503.83449999999993,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample019",
-      "issueNumber": 155,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/155",
-      "issueTitle": "Autorouting Bug Report: <board#148 />",
-      "issueCreatedAt": "2025-06-19T21:38:58Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=684157ba-34f9-4d02-bbe4-c89ffb543bdd&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample019.json",
-      "routed": "routed/sample019.json",
-      "evidence": "evidence/sample019.json",
-      "inputSha256": "9b9af94a83c213162a9507f6c905563868346742a89b5ee31ae240f0f499d819",
-      "routedSha256": "15daae81796983faa5e50c8c8bc5d68c590a9d7b9958ad10e61b9e303cc725b1",
-      "evidenceSha256": "f2990dad10514bb77e42044d977ec036263f030b51cb2cb605d8916d85cccfc6",
-      "drcErrorCount": 6,
-      "drcErrorTypes": {
-        "pcb_trace_error": 6
-      },
-      "traceCount": 17,
-      "durationMs": 518.451375,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample013",
+        "sampleNumber": 13,
+        "label": "srj33 sample 13 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 7737.924470999999,
+        "traceCount": 33,
+        "viaCount": 29,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 6
+      }
     },
     {
       "id": "sample020",
@@ -469,95 +391,19 @@
       },
       "traceCount": 21,
       "durationMs": 795.2853749999999,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample021",
-      "issueNumber": 151,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/151",
-      "issueTitle": "Autorouting Bug Report: <group#1034 />",
-      "issueCreatedAt": "2025-06-16T22:18:49Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=c9bd49e3-dcdb-4952-8f87-a72fee386ae2&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample021.json",
-      "routed": "routed/sample021.json",
-      "evidence": "evidence/sample021.json",
-      "inputSha256": "d2eb348689cbef4f49b73e830555de532c28e757f2d6c227d0c5ab3df1bf43e7",
-      "routedSha256": "0e02735638cb55093694d40ae23cf0cfde3f5e574a6edd7170fcfa0c97d32d63",
-      "evidenceSha256": "874e03a51399b89d9cfbafc28d624a42ca792cd063c109ca82e9f2f548e8d3e1",
-      "drcErrorCount": 12,
-      "drcErrorTypes": {
-        "pcb_trace_error": 12
-      },
-      "traceCount": 18,
-      "durationMs": 494.68133300000005,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample022",
-      "issueNumber": 142,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/142",
-      "issueTitle": "Autorouting Bug Report: <board#470 /> seveibar/led-water-accelerometer",
-      "issueCreatedAt": "2025-06-15T03:52:57Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=857612b1-a0a4-47d9-9155-9c3855a32339&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample022.json",
-      "routed": "routed/sample022.json",
-      "evidence": "evidence/sample022.json",
-      "inputSha256": "74d308f6d1cade30f3e2e261e4748b8132db7aafb1fd8760cd7c48ffcf73bd5b",
-      "routedSha256": "e8b58a70bbdb604ab5c73187f7484a0c5567bbd76b0810fe6f9a861eb142c909",
-      "evidenceSha256": "cc3d1a234135bce7b0dd0fda20e9359f55235688fbfed3318cb01891be6d62f3",
-      "drcErrorCount": 100,
-      "drcErrorTypes": {
-        "pcb_trace_error": 100
-      },
-      "traceCount": 142,
-      "durationMs": 9278.877166,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample023",
-      "issueNumber": 141,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/141",
-      "issueTitle": "Autorouting Bug Report: <board#294 />",
-      "issueCreatedAt": "2025-06-11T13:27:16Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=6c547ec5-ce7f-4145-a2db-2c1e2440a896&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample023.json",
-      "routed": "routed/sample023.json",
-      "evidence": "evidence/sample023.json",
-      "inputSha256": "cad40c9e83ea0b14960ed5067c3c7668c58cbf142ef3aff59d7f116d90caf542",
-      "routedSha256": "e3f7024214fc87755e0c88a1db3f42cf84b7d03bb5599a1c457176d6f7374c5e",
-      "evidenceSha256": "0b32052d661b22fe805f13c09f40700d288af7c1b584e4b65c3b028ae9c1bf20",
-      "drcErrorCount": 22,
-      "drcErrorTypes": {
-        "pcb_trace_error": 22
-      },
-      "traceCount": 36,
-      "durationMs": 1131.895792,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample024",
-      "issueNumber": 135,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/135",
-      "issueTitle": "Autorouting Bug Report: <board#148 />",
-      "issueCreatedAt": "2025-06-08T21:09:02Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=c5e14213-824c-4ce6-9d6d-cb36f4fbc902&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample024.json",
-      "routed": "routed/sample024.json",
-      "evidence": "evidence/sample024.json",
-      "inputSha256": "9b9af94a83c213162a9507f6c905563868346742a89b5ee31ae240f0f499d819",
-      "routedSha256": "15daae81796983faa5e50c8c8bc5d68c590a9d7b9958ad10e61b9e303cc725b1",
-      "evidenceSha256": "f2990dad10514bb77e42044d977ec036263f030b51cb2cb605d8916d85cccfc6",
-      "drcErrorCount": 6,
-      "drcErrorTypes": {
-        "pcb_trace_error": 6
-      },
-      "traceCount": 17,
-      "durationMs": 558.481,
-      "duplicateOf": "sample019"
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample020",
+        "sampleNumber": 20,
+        "label": "srj33 sample 20 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 4027.326597,
+        "traceCount": 21,
+        "viaCount": 8,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 3
+      }
     },
     {
       "id": "sample025",
@@ -579,139 +425,31 @@
       },
       "traceCount": 20,
       "durationMs": 838.622958,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample026",
-      "issueNumber": 133,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/133",
-      "issueTitle": "Autorouting Bug Report: <board#12528 />",
-      "issueCreatedAt": "2025-06-08T14:50:12Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=25b828c9-c346-4f94-9897-070d64f2e4c3&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample026.json",
-      "routed": "routed/sample026.json",
-      "evidence": "evidence/sample026.json",
-      "inputSha256": "e0e9d191719cec8bd8137b66063feb43ced9ae1a6e496a0ebc2b0ee53eb39e27",
-      "routedSha256": "9f8f18ec52177d28c5752ac26fce9c10802a89b958018663d5b64f5c7276c1bf",
-      "evidenceSha256": "83053264b1a81afbba54aaa24588ee4f8b696a18c99e4cb0cd5f3116adbced14",
-      "drcErrorCount": 102,
-      "drcErrorTypes": {
-        "pcb_trace_error": 102
-      },
-      "traceCount": 133,
-      "durationMs": 5838.668625,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample027",
-      "issueNumber": 132,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/132",
-      "issueTitle": "Autorouting Bug Report: <board#143 />",
-      "issueCreatedAt": "2025-06-06T21:09:52Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=1767dc47-41b4-46e0-aad5-96e8e23173e6&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample027.json",
-      "routed": "routed/sample027.json",
-      "evidence": "evidence/sample027.json",
-      "inputSha256": "18a71840816cfe89d5954a3db6fd4634ec90415734996f369fa89f871cc9a0dd",
-      "routedSha256": "cb1944b6c309e34838fcec21b7bef7695401e73ac579c1ad01ccbecf15312c62",
-      "evidenceSha256": "769c55601b62e32b4e2dd62e45dbf2c9ff2620b9543da73508e3dc6be97cbef6",
-      "drcErrorCount": 6,
-      "drcErrorTypes": {
-        "pcb_trace_error": 6
-      },
-      "traceCount": 17,
-      "durationMs": 524.79175,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample028",
-      "issueNumber": 131,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/131",
-      "issueTitle": "Autorouting Bug Report: <group#680 name=\".U1\" />",
-      "issueCreatedAt": "2025-06-05T19:17:37Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=7ef5b44e-4d6d-4d1a-aa59-688de0557822&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample028.json",
-      "routed": "routed/sample028.json",
-      "evidence": "evidence/sample028.json",
-      "inputSha256": "1956e74822bb074d874de916a1d0a1f3d84aec2809c53a99731014ebbf7ef3ad",
-      "routedSha256": "e085e4ee2b5cf9ba49338ec5d0b31efa61e57c5d4160680db33d8a73fc75900c",
-      "evidenceSha256": "9978efe976e2f4ce6c88fe65da926f9de5cd45f9d2d8790d653354754926a047",
-      "drcErrorCount": 56,
-      "drcErrorTypes": {
-        "pcb_trace_error": 56
-      },
-      "traceCount": 84,
-      "durationMs": 1717.684125,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample029",
-      "issueNumber": 130,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/130",
-      "issueTitle": "Autorouting Bug Report: <group#290 name=\".U1\" />",
-      "issueCreatedAt": "2025-06-05T19:17:26Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=076a6af9-8004-4b05-bd7b-21608753fb90&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample029.json",
-      "routed": "routed/sample029.json",
-      "evidence": "evidence/sample029.json",
-      "inputSha256": "1d1ef7d82b0883cab20d23c09aa1635a3d7c5989e9b3173717df2709aa87259b",
-      "routedSha256": "26ec963b97a7f1d4edddce9dd33d0c6c10986036b1e6fbf2719cd47c33e8677d",
-      "evidenceSha256": "7c6afc4e4cdf284eb2fd3ef4ee38585104398adcef97ff083e6e7f0565d565ba",
-      "drcErrorCount": 16,
-      "drcErrorTypes": {
-        "pcb_trace_error": 16
-      },
-      "traceCount": 24,
-      "durationMs": 494.754583,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample030",
-      "issueNumber": 129,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/129",
-      "issueTitle": "Autorouting Bug Report: <board#409 />",
-      "issueCreatedAt": "2025-06-05T14:17:07Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=171bae09-5baf-4b77-8544-0fce1fa4fee4&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample030.json",
-      "routed": "routed/sample030.json",
-      "evidence": "evidence/sample030.json",
-      "inputSha256": "726a5c27d27ac93526ba1ddce82a5cd4a3446ea5a4976ce0df0adb74605a50f6",
-      "routedSha256": "6c8cc11b487a8afb07fbbf9b4050659d399374a4936267eeb439e831e2694bd6",
-      "evidenceSha256": "528bc72f34e67fb1fa7560348db96da1ca9b86d89aa2b3032e8f02a27364affd",
-      "drcErrorCount": 98,
-      "drcErrorTypes": {
-        "pcb_trace_error": 98
-      },
-      "traceCount": 131,
-      "durationMs": 7191.002584,
-      "duplicateOf": null
-    },
-    {
-      "id": "sample031",
-      "issueNumber": 124,
-      "issueUrl": "https://github.com/tscircuit/tscircuit-autorouter/issues/124",
-      "issueTitle": "Autorouting Bug Report: <board#165 />",
-      "issueCreatedAt": "2025-05-14T06:40:37Z",
-      "sourceUrl": "https://api.tscircuit.com/autorouting/bug_reports/get?autorouting_bug_report_id=be84eb3b-9bc5-468a-9153-867c0d1b951b&download=true",
-      "sourceJsonPath": "autorouting_bug_report.simple_route_json",
-      "input": "samples/sample031.json",
-      "routed": "routed/sample031.json",
-      "evidence": "evidence/sample031.json",
-      "inputSha256": "29f70564db17afd85cf30187fab3734ae9afd2d73285f9397032b441004d4add",
-      "routedSha256": "2d67ad4f87f1626e68a1eb3ef1095de34e36a0a659a953920cca72d262fe8249",
-      "evidenceSha256": "4b4708dd3da0979bc653470ccf639b9e7941263ecf00d4951000aaca8f0620b9",
-      "drcErrorCount": 6,
-      "drcErrorTypes": {
-        "pcb_trace_error": 6
-      },
-      "traceCount": 12,
-      "durationMs": 462.41429099999993,
-      "duplicateOf": null
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "datasetName": "srj33",
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample025",
+        "sampleNumber": 25,
+        "label": "srj33 sample 25 - AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "elapsedTimeMs": 4521.106612,
+        "traceCount": 20,
+        "viaCount": 15,
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 19
+      }
     }
-  ]
+  ],
+  "pipeline9Filter": {
+    "sourceDatasetCommit": "c55b028f537c91c8f99f06ae10db26cc2d2aaac6",
+    "benchmarkCommit": "84a1d769eb1877c34041fefae1ddc8642957696f",
+    "workflowRunUrl": "https://github.com/tscircuit/tscircuit-autorouter/actions/runs/33978041068",
+    "resultFile": "audit/pipeline9-benchmark-result.json",
+    "resultSha256": "73a6ad1678cbf3dc807ba102a0f93410637c21c1ae80e0ac5bdfb43d48664c52",
+    "criterion": "Pipeline 9 snapshot drcErrorCount > 0; preserve original sample IDs",
+    "inputSampleCount": 31,
+    "keptSampleCount": 12,
+    "removedSampleCount": 19,
+    "drcErrorCount": 150
+  }
 }

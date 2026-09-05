@@ -262,12 +262,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/721",
     "createdAt": "2026-03-27T11:06:00Z",
     "reportId": "2484aca1-5b97-4e89-ab2d-f4cbf26bff4b",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 1,
     "error": null,
-    "sampleId": "sample007"
+    "sampleId": "sample007",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 720,
@@ -275,12 +276,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/720",
     "createdAt": "2026-03-27T11:02:29Z",
     "reportId": "d890802a-17b1-4fc8-a878-9442122d0286",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 1,
     "error": null,
-    "sampleId": "sample008"
+    "sampleId": "sample008",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 644,
@@ -900,12 +902,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/178",
     "createdAt": "2025-06-30T04:47:34Z",
     "reportId": "2807d7a9-517f-4824-831f-ff6b2d2d299a",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 56,
     "error": null,
-    "sampleId": "sample009"
+    "sampleId": "sample009",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 173,
@@ -965,12 +968,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/162",
     "createdAt": "2025-06-24T17:03:06Z",
     "reportId": "2931c01a-0d0b-4948-8b5c-63da32512890",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 10,
     "error": null,
-    "sampleId": "sample014"
+    "sampleId": "sample014",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 160,
@@ -978,12 +982,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/160",
     "createdAt": "2025-06-22T19:00:13Z",
     "reportId": "3f9c7508-c29a-432e-8ea7-cfbba54954e8",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 26,
     "error": null,
-    "sampleId": "sample015"
+    "sampleId": "sample015",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 159,
@@ -991,12 +996,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/159",
     "createdAt": "2025-06-22T18:58:47Z",
     "reportId": "b84a5a83-93e8-4a8c-97b8-608f22902e92",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 26,
     "error": null,
-    "sampleId": "sample016"
+    "sampleId": "sample016",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 158,
@@ -1004,12 +1010,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/158",
     "createdAt": "2025-06-22T15:51:45Z",
     "reportId": "34b4f502-9547-4c80-a150-193557efcf9e",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 12,
     "error": null,
-    "sampleId": "sample017"
+    "sampleId": "sample017",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 157,
@@ -1017,12 +1024,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/157",
     "createdAt": "2025-06-21T15:49:33Z",
     "reportId": "afc8958a-8760-43e2-9f10-9ac7ed182690",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 4,
     "error": null,
-    "sampleId": "sample018"
+    "sampleId": "sample018",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 155,
@@ -1030,12 +1038,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/155",
     "createdAt": "2025-06-19T21:38:58Z",
     "reportId": "684157ba-34f9-4d02-bbe4-c89ffb543bdd",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 6,
     "error": null,
-    "sampleId": "sample019"
+    "sampleId": "sample019",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 153,
@@ -1056,12 +1065,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/151",
     "createdAt": "2025-06-16T22:18:49Z",
     "reportId": "c9bd49e3-dcdb-4952-8f87-a72fee386ae2",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 12,
     "error": null,
-    "sampleId": "sample021"
+    "sampleId": "sample021",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 142,
@@ -1069,12 +1079,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/142",
     "createdAt": "2025-06-15T03:52:57Z",
     "reportId": "857612b1-a0a4-47d9-9155-9c3855a32339",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 100,
     "error": null,
-    "sampleId": "sample022"
+    "sampleId": "sample022",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 141,
@@ -1082,12 +1093,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/141",
     "createdAt": "2025-06-11T13:27:16Z",
     "reportId": "6c547ec5-ce7f-4145-a2db-2c1e2440a896",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 22,
     "error": null,
-    "sampleId": "sample023"
+    "sampleId": "sample023",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 135,
@@ -1095,12 +1107,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/135",
     "createdAt": "2025-06-08T21:09:02Z",
     "reportId": "c5e14213-824c-4ce6-9d6d-cb36f4fbc902",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 6,
     "error": null,
-    "sampleId": "sample024"
+    "sampleId": "sample024",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 134,
@@ -1121,12 +1134,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/133",
     "createdAt": "2025-06-08T14:50:12Z",
     "reportId": "25b828c9-c346-4f94-9897-070d64f2e4c3",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 102,
     "error": null,
-    "sampleId": "sample026"
+    "sampleId": "sample026",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 132,
@@ -1134,12 +1148,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/132",
     "createdAt": "2025-06-06T21:09:52Z",
     "reportId": "1767dc47-41b4-46e0-aad5-96e8e23173e6",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 6,
     "error": null,
-    "sampleId": "sample027"
+    "sampleId": "sample027",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 131,
@@ -1147,12 +1162,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/131",
     "createdAt": "2025-06-05T19:17:37Z",
     "reportId": "7ef5b44e-4d6d-4d1a-aa59-688de0557822",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 56,
     "error": null,
-    "sampleId": "sample028"
+    "sampleId": "sample028",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 130,
@@ -1160,12 +1176,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/130",
     "createdAt": "2025-06-05T19:17:26Z",
     "reportId": "076a6af9-8004-4b05-bd7b-21608753fb90",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 16,
     "error": null,
-    "sampleId": "sample029"
+    "sampleId": "sample029",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 129,
@@ -1173,12 +1190,13 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/129",
     "createdAt": "2025-06-05T14:17:07Z",
     "reportId": "171bae09-5baf-4b77-8544-0fce1fa4fee4",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 98,
     "error": null,
-    "sampleId": "sample030"
+    "sampleId": "sample030",
+    "pipeline9DrcErrorCount": 0
   },
   {
     "issue": 124,
@@ -1186,11 +1204,12 @@
     "url": "https://github.com/tscircuit/tscircuit-autorouter/issues/124",
     "createdAt": "2025-05-14T06:40:37Z",
     "reportId": "be84eb3b-9bc5-468a-9153-867c0d1b951b",
-    "status": "included",
+    "status": "pipeline9-drc-passed",
     "solved": true,
     "failed": false,
     "drcErrorCount": 6,
     "error": null,
-    "sampleId": "sample031"
+    "sampleId": "sample031",
+    "pipeline9DrcErrorCount": 0
   }
 ]

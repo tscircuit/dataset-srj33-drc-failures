@@ -1,0 +1,25 @@
+{
+  "repository": "tscircuit/tscircuit-autorouter",
+  "workflowName": "Autorouting Benchmark",
+  "eventName": "workflow_dispatch",
+  "refName": "main",
+  "workflowRunId": "33978041068",
+  "workflowRunAttempt": 1,
+  "commitSha": "84a1d769eb1877c34041fefae1ddc8642957696f",
+  "createdAt": "2026-09-05T16:34:57.223Z",
+  "runner": {
+    "name": "blacksmith-01m1s6f707d67aj656hvdyjbfx-32vcpu",
+    "os": "Linux",
+    "arch": "ARM64"
+  },
+  "benchmarkArgs": [
+    "--dataset",
+    "33"
+  ],
+  "mainBranchDatasets": [],
+  "timeoutConfiguration": {
+    "perEffortMs": 60000,
+    "heartbeatIntervalMs": 30000,
+    "terminateTimeoutMs": 1000
+  }
+}
