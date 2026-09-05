@@ -97,7 +97,9 @@ bun run reproduce sample032  # Reroute an additional input with pinned Pipeline 
 
 `reproduce` without a sample runs all retained inputs with their recorded baseline
 pipeline. Runtime checkouts and new results stay in ignored `.cache/`.
-Use Bun 1.4.1. Reproduction compares exact routed traces and DRC error objects.
+Use Bun 1.4.1 on ARM64, matching the recorded audit and CI architecture.
+Reproduction compares exact routed traces and DRC error objects; x64 can differ
+in the final floating-point digit of error coordinates.
 Run the autorouter benchmark with `--dataset srj33` to evaluate a newer revision.
 
 ## Samples
