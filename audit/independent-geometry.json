@@ -10630,5 +10630,2030 @@
         ]
       }
     ]
+  },
+  {
+    "id": "sample057",
+    "counts": {
+      "confirmed": 69
+    },
+    "errors": [
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_177], port[pcb_port_503], port[pcb_port_503]] is too close to trace[port[pcb_port_178], port[pcb_port_510], port[pcb_port_510]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_236",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_236_preloaded_source_trace_241",
+          "pcb_component_ids": [],
+          "center": {
+            "x": -0.2868029999999986,
+            "y": -3.18956
+          },
+          "pcb_port_ids": [
+            "pcb_port_177",
+            "pcb_port_503",
+            "pcb_port_178",
+            "pcb_port_510"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_236",
+          "preloaded_source_trace_241"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999999,
+        "layer": "bottom",
+        "segmentIndices": [
+          17,
+          15
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_173], port[pcb_port_507], port[pcb_port_507]] is too close to trace[port[pcb_port_172], port[pcb_port_511], port[pcb_port_511]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_237",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_237_preloaded_source_trace_238",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 8.979117000000002,
+            "y": -1.5142800000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_173",
+            "pcb_port_507",
+            "pcb_port_172",
+            "pcb_port_511"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_237",
+          "preloaded_source_trace_238"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999916,
+        "layer": "bottom",
+        "segmentIndices": [
+          16,
+          26
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_172], port[pcb_port_511], port[pcb_port_511]] is too close to trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_238",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_238_preloaded_source_trace_242",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 8.085037000000002,
+            "y": 5.39452
+          },
+          "pcb_port_ids": [
+            "pcb_port_172",
+            "pcb_port_511",
+            "pcb_port_175",
+            "pcb_port_506"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_238",
+          "preloaded_source_trace_242"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "bottom",
+        "segmentIndices": [
+          31,
+          34
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_174], port[pcb_port_515], port[pcb_port_515]] is too close to trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_239",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_239_preloaded_source_trace_242",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 7.028397000000002,
+            "y": -1.6768400000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_174",
+            "pcb_port_515",
+            "pcb_port_175",
+            "pcb_port_506"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_239",
+          "preloaded_source_trace_242"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000002,
+        "layer": "bottom",
+        "segmentIndices": [
+          19,
+          29
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_167], port[pcb_port_500], port[pcb_port_500]] is too close to trace[port[pcb_port_166], port[pcb_port_504], port[pcb_port_504]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_228",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_228_preloaded_source_trace_229",
+          "pcb_component_ids": [],
+          "center": {
+            "x": -0.2868029999999986,
+            "y": 2.3863600000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_167",
+            "pcb_port_500",
+            "pcb_port_166",
+            "pcb_port_504"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_228",
+          "preloaded_source_trace_229"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999999,
+        "layer": "inner4",
+        "segmentIndices": [
+          11,
+          9
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_167], port[pcb_port_500], port[pcb_port_500]] is too close to trace[port[pcb_port_170], port[pcb_port_501], port[pcb_port_501]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_228",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_228_preloaded_source_trace_235",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 4.102317000000001,
+            "y": -2.00196
+          },
+          "pcb_port_ids": [
+            "pcb_port_167",
+            "pcb_port_500",
+            "pcb_port_170",
+            "pcb_port_501"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_228",
+          "preloaded_source_trace_235"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000002,
+        "layer": "inner4",
+        "segmentIndices": [
+          30,
+          37
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_165], port[pcb_port_508], port[pcb_port_508]] is too close to trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_230",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_230_preloaded_source_trace_233",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 2.7205570000000017,
+            "y": 3.7689200000000005
+          },
+          "pcb_port_ids": [
+            "pcb_port_165",
+            "pcb_port_508",
+            "pcb_port_171",
+            "pcb_port_509"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_230",
+          "preloaded_source_trace_233"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000002,
+        "layer": "inner4",
+        "segmentIndices": [
+          23,
+          22
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_169], port[pcb_port_505], port[pcb_port_505]] is too close to trace[port[pcb_port_170], port[pcb_port_501], port[pcb_port_501]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_234",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_234_preloaded_source_trace_235",
+          "pcb_component_ids": [],
+          "center": {
+            "x": -0.18168299999999782,
+            "y": 4.581720000000001
+          },
+          "pcb_port_ids": [
+            "pcb_port_169",
+            "pcb_port_505",
+            "pcb_port_170",
+            "pcb_port_501"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_234",
+          "preloaded_source_trace_235"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "inner4",
+        "segmentIndices": [
+          20,
+          23
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_148], port[pcb_port_484], port[pcb_port_484]] is too close to trace[port[pcb_port_152], port[pcb_port_488], port[pcb_port_488]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_245",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_245_preloaded_source_trace_249",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 2.0703170000000015,
+            "y": -3.3837200000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_148",
+            "pcb_port_484",
+            "pcb_port_152",
+            "pcb_port_488"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_245",
+          "preloaded_source_trace_249"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "inner6",
+        "segmentIndices": [
+          19,
+          21
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_149], port[pcb_port_485], port[pcb_port_485]] is too close to trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_246",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_246_preloaded_source_trace_251",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 2.5579970000000016,
+            "y": -1.7581200000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_149",
+            "pcb_port_485",
+            "pcb_port_154",
+            "pcb_port_490"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_246",
+          "preloaded_source_trace_251"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "inner6",
+        "segmentIndices": [
+          12,
+          16
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_150], port[pcb_port_486], port[pcb_port_486]] is too close to trace[port[pcb_port_151], port[pcb_port_487], port[pcb_port_487]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_247",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_247_preloaded_source_trace_248",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 2.3954370000000016,
+            "y": -2.57092
+          },
+          "pcb_port_ids": [
+            "pcb_port_150",
+            "pcb_port_486",
+            "pcb_port_151",
+            "pcb_port_487"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_247",
+          "preloaded_source_trace_248"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.0812799999999991,
+        "layer": "inner6",
+        "segmentIndices": [
+          19,
+          17
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_150], port[pcb_port_486], port[pcb_port_486]] is too close to trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_247",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_247_preloaded_source_trace_251",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 9.141677000000001,
+            "y": -1.6768400000000003
+          },
+          "pcb_port_ids": [
+            "pcb_port_150",
+            "pcb_port_486",
+            "pcb_port_154",
+            "pcb_port_490"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_247",
+          "preloaded_source_trace_251"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000091,
+        "layer": "inner6",
+        "segmentIndices": [
+          20,
+          15
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_151], port[pcb_port_487], port[pcb_port_487]] is too close to trace[port[pcb_port_152], port[pcb_port_488], port[pcb_port_488]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_248",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_248_preloaded_source_trace_249",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 9.466797000000003,
+            "y": -2.16452
+          },
+          "pcb_port_ids": [
+            "pcb_port_151",
+            "pcb_port_487",
+            "pcb_port_152",
+            "pcb_port_488"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_248",
+          "preloaded_source_trace_249"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000091,
+        "layer": "inner6",
+        "segmentIndices": [
+          16,
+          22
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_155], port[pcb_port_491], port[pcb_port_491]] is too close to trace[port[pcb_port_156], port[pcb_port_492], port[pcb_port_492]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_252",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_252_preloaded_source_trace_253",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 1.0949570000000015,
+            "y": 6.20732
+          },
+          "pcb_port_ids": [
+            "pcb_port_155",
+            "pcb_port_491",
+            "pcb_port_156",
+            "pcb_port_492"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_252",
+          "preloaded_source_trace_253"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000088,
+        "layer": "inner5",
+        "segmentIndices": [
+          21,
+          25
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_157], port[pcb_port_493], port[pcb_port_493]] is too close to trace[port[pcb_port_162], port[pcb_port_498], port[pcb_port_498]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_254",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_254_preloaded_source_trace_259",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 1.0949570000000015,
+            "y": 7.18268
+          },
+          "pcb_port_ids": [
+            "pcb_port_157",
+            "pcb_port_493",
+            "pcb_port_162",
+            "pcb_port_498"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_254",
+          "preloaded_source_trace_259"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08128000000000002,
+        "layer": "inner5",
+        "segmentIndices": [
+          26,
+          29
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_157], port[pcb_port_493], port[pcb_port_493]] is too close to trace[port[pcb_port_158], port[pcb_port_494], port[pcb_port_494]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_254",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_254_preloaded_source_trace_255",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 1.2575170000000016,
+            "y": 7.02012
+          },
+          "pcb_port_ids": [
+            "pcb_port_157",
+            "pcb_port_493",
+            "pcb_port_158",
+            "pcb_port_494"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_254",
+          "preloaded_source_trace_255"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "inner5",
+        "segmentIndices": [
+          13,
+          20
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_trace_error",
+          "error_type": "pcb_trace_error",
+          "message": "PCB trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] is too close to trace[port[pcb_port_160], port[pcb_port_496], port[pcb_port_496]] (gap: 0.081mm)",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "source_trace_id": "",
+          "pcb_trace_error_id": "overlap_preloaded_source_trace_256_preloaded_source_trace_257",
+          "pcb_component_ids": [],
+          "center": {
+            "x": 3.370797000000002,
+            "y": 5.39452
+          },
+          "pcb_port_ids": [
+            "pcb_port_159",
+            "pcb_port_495",
+            "pcb_port_160",
+            "pcb_port_496"
+          ]
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "preloaded_source_trace_257"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08127999999999913,
+        "layer": "inner5",
+        "segmentIndices": [
+          22,
+          29
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_2_preloaded_source_trace_256",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_2] and trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_2",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.8095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "via_2"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_4_preloaded_source_trace_238",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_4] and trace trace[port[pcb_port_172], port[pcb_port_511], port[pcb_port_511]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_4",
+          "pcb_trace_id": "preloaded_source_trace_238",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -4.804041499999999,
+            "y": 1.7095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_238",
+          "via_4"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "bottom",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_6_preloaded_source_trace_242",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_6] and trace trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_6",
+          "pcb_trace_id": "preloaded_source_trace_242",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.6595800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_242",
+          "via_6"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "bottom",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_7_preloaded_source_trace_242",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_7] and trace trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] are too close (clearance: 0.095mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_7",
+          "pcb_trace_id": "preloaded_source_trace_242",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09485192394281428,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.6595800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_242",
+          "via_7"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09485192394281428,
+        "layer": "bottom",
+        "segmentIndices": [
+          38,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_7_preloaded_source_trace_253",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_7] and trace trace[port[pcb_port_156], port[pcb_port_492], port[pcb_port_492]] are too close (clearance: 0.094mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_7",
+          "pcb_trace_id": "preloaded_source_trace_253",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.0942000000000015,
+          "center": {
+            "x": -3.2540414999999996,
+            "y": 1.40958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_253",
+          "via_7"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.0942000000000015,
+        "layer": "inner5",
+        "segmentIndices": [
+          27,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_8_preloaded_source_trace_243",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_8] and trace trace[port[pcb_port_179], port[pcb_port_502], port[pcb_port_502]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_8",
+          "pcb_trace_id": "preloaded_source_trace_243",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.7790415,
+            "y": 0.15958000000000028
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_243",
+          "via_8"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "bottom",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_10_preloaded_source_trace_256",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_10] and trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_10",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.8095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "via_10"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_12_preloaded_source_trace_236",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_12] and trace trace[port[pcb_port_177], port[pcb_port_503], port[pcb_port_503]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_12",
+          "pcb_trace_id": "preloaded_source_trace_236",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.0290415,
+            "y": 1.2095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_236",
+          "via_12"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "bottom",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_12_preloaded_source_trace_256",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_12] and trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_12",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.8095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "via_12"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_13_preloaded_source_trace_243",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_13] and trace trace[port[pcb_port_179], port[pcb_port_502], port[pcb_port_502]] are too close (clearance: 0.088mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_13",
+          "pcb_trace_id": "preloaded_source_trace_243",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08795045999394271,
+          "center": {
+            "x": -5.7790415,
+            "y": 0.15958000000000028
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_243",
+          "via_13"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08795045999394271,
+        "layer": "bottom",
+        "segmentIndices": [
+          33,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_13_preloaded_source_trace_235",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_13] and trace trace[port[pcb_port_170], port[pcb_port_501], port[pcb_port_501]] are too close (clearance: 0.094mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_13",
+          "pcb_trace_id": "preloaded_source_trace_235",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.0942000000000015,
+          "center": {
+            "x": -5.2790415,
+            "y": 0.9095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_235",
+          "via_13"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09420000000000156,
+        "layer": "inner4",
+        "segmentIndices": [
+          19,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_14_preloaded_source_trace_256",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_14] and trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_14",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.8095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "via_14"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_16_preloaded_source_trace_240",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_16] and trace trace[port[pcb_port_176], port[pcb_port_514], port[pcb_port_514]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_16",
+          "pcb_trace_id": "preloaded_source_trace_240",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.7290414999999997,
+            "y": 0.65958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_240",
+          "via_16"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "bottom",
+        "segmentIndices": [
+          7,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_18_preloaded_source_trace_229",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_18] and trace trace[port[pcb_port_166], port[pcb_port_504], port[pcb_port_504]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_18",
+          "pcb_trace_id": "preloaded_source_trace_229",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -4.9540415,
+            "y": 0.6095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_229",
+          "via_18"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_20_preloaded_source_trace_232",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_20] and trace trace[port[pcb_port_168], port[pcb_port_513], port[pcb_port_513]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_20",
+          "pcb_trace_id": "preloaded_source_trace_232",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.7290414999999997,
+            "y": 1.15958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_232",
+          "via_20"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_21_preloaded_source_trace_228",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_21] and trace trace[port[pcb_port_167], port[pcb_port_500], port[pcb_port_500]] are too close (clearance: 0.093mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_21",
+          "pcb_trace_id": "preloaded_source_trace_228",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09348000000000078,
+          "center": {
+            "x": -5.0290415,
+            "y": 0.6095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_228",
+          "via_21"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09348000000000078,
+        "layer": "inner4",
+        "segmentIndices": [
+          31,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_22_preloaded_source_trace_234",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_22] and trace trace[port[pcb_port_169], port[pcb_port_505], port[pcb_port_505]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_22",
+          "pcb_trace_id": "preloaded_source_trace_234",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.9095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_234",
+          "via_22"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          7,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_23_preloaded_source_trace_233",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_23] and trace trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] are too close (clearance: 0.094mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_23",
+          "pcb_trace_id": "preloaded_source_trace_233",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09448252428980164,
+          "center": {
+            "x": -4.054041499999999,
+            "y": 0.9095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_233",
+          "via_23"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09448252428980164,
+        "layer": "inner4",
+        "segmentIndices": [
+          26,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_24_preloaded_source_trace_233",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_24] and trace trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_24",
+          "pcb_trace_id": "preloaded_source_trace_233",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -4.054041499999999,
+            "y": 0.9095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_233",
+          "via_24"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          7,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_26_preloaded_source_trace_233",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_26] and trace trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_26",
+          "pcb_trace_id": "preloaded_source_trace_233",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -4.054041499999999,
+            "y": 0.9095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_233",
+          "via_26"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_27_preloaded_source_trace_231",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_27] and trace trace[port[pcb_port_164], port[pcb_port_512], port[pcb_port_512]] are too close (clearance: 0.09mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_27",
+          "pcb_trace_id": "preloaded_source_trace_231",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09042909978426006,
+          "center": {
+            "x": -4.479041499999999,
+            "y": 0.85958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_231",
+          "via_27"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09042909978426006,
+        "layer": "inner4",
+        "segmentIndices": [
+          75,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_30_preloaded_source_trace_235",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_30] and trace trace[port[pcb_port_170], port[pcb_port_501], port[pcb_port_501]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_30",
+          "pcb_trace_id": "preloaded_source_trace_235",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2790415,
+            "y": 0.9095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_235",
+          "via_30"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_34_preloaded_source_trace_251",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_34] and trace trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_34",
+          "pcb_trace_id": "preloaded_source_trace_251",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 0.40958000000000006
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_251",
+          "via_34"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_34_preloaded_source_trace_252",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_34] and trace trace[port[pcb_port_155], port[pcb_port_491], port[pcb_port_491]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_34",
+          "pcb_trace_id": "preloaded_source_trace_252",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 1.0095800000000001
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_252",
+          "via_34"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_36_preloaded_source_trace_250",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_36] and trace trace[port[pcb_port_153], port[pcb_port_489]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_36",
+          "pcb_trace_id": "preloaded_source_trace_250",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.3290414999999998,
+            "y": 0.15958000000000017
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_250",
+          "via_36"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_38_preloaded_source_trace_251",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_38] and trace trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_38",
+          "pcb_trace_id": "preloaded_source_trace_251",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 0.40958000000000006
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_251",
+          "via_38"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_38_preloaded_source_trace_252",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_38] and trace trace[port[pcb_port_155], port[pcb_port_491], port[pcb_port_491]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_38",
+          "pcb_trace_id": "preloaded_source_trace_252",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 1.0095800000000001
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_252",
+          "via_38"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_39_preloaded_source_trace_251",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_39] and trace trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] are too close (clearance: 0.087mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_39",
+          "pcb_trace_id": "preloaded_source_trace_251",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08744134311148882,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 0.40958000000000006
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_251",
+          "via_39"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08744134311148863,
+        "layer": "inner6",
+        "segmentIndices": [
+          21,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_40_preloaded_source_trace_249",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_40] and trace trace[port[pcb_port_152], port[pcb_port_488], port[pcb_port_488]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_40",
+          "pcb_trace_id": "preloaded_source_trace_249",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -2.5040414999999996,
+            "y": 3.70958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_249",
+          "via_40"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          8,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_42_preloaded_source_trace_247",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_42] and trace trace[port[pcb_port_150], port[pcb_port_486], port[pcb_port_486]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_42",
+          "pcb_trace_id": "preloaded_source_trace_247",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5790414999999998,
+            "y": 2.80958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_247",
+          "via_42"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_42_preloaded_source_trace_249",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_42] and trace trace[port[pcb_port_152], port[pcb_port_488], port[pcb_port_488]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_42",
+          "pcb_trace_id": "preloaded_source_trace_249",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -2.5040414999999996,
+            "y": 3.70958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_249",
+          "via_42"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          8,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_43_preloaded_source_trace_254",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_43] and trace trace[port[pcb_port_157], port[pcb_port_493], port[pcb_port_493]] are too close (clearance: 0.095mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_43",
+          "pcb_trace_id": "preloaded_source_trace_254",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09492000000000178,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.7595800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_254",
+          "via_43"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09492000000000173,
+        "layer": "inner5",
+        "segmentIndices": [
+          19,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_44_preloaded_source_trace_245",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_44] and trace trace[port[pcb_port_148], port[pcb_port_484], port[pcb_port_484]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_44",
+          "pcb_trace_id": "preloaded_source_trace_245",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -2.2540414999999996,
+            "y": 0.10958000000000001
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_245",
+          "via_44"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_46_preloaded_source_trace_247",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_46] and trace trace[port[pcb_port_150], port[pcb_port_486], port[pcb_port_486]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_46",
+          "pcb_trace_id": "preloaded_source_trace_247",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5790414999999998,
+            "y": 2.80958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_247",
+          "via_46"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_48_preloaded_source_trace_253",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_48] and trace trace[port[pcb_port_156], port[pcb_port_492], port[pcb_port_492]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_48",
+          "pcb_trace_id": "preloaded_source_trace_253",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.2540414999999996,
+            "y": 1.40958
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_253",
+          "via_48"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_52_preloaded_source_trace_234",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_52] and trace trace[port[pcb_port_169], port[pcb_port_505], port[pcb_port_505]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_52",
+          "pcb_trace_id": "preloaded_source_trace_234",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.9095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_234",
+          "via_52"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_52_preloaded_source_trace_259",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_52] and trace trace[port[pcb_port_162], port[pcb_port_498], port[pcb_port_498]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_52",
+          "pcb_trace_id": "preloaded_source_trace_259",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 1.0095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_259",
+          "via_52"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_53_preloaded_source_trace_259",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_53] and trace trace[port[pcb_port_162], port[pcb_port_498], port[pcb_port_498]] are too close (clearance: 0.09mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_53",
+          "pcb_trace_id": "preloaded_source_trace_259",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08956266345504699,
+          "center": {
+            "x": -5.2040415,
+            "y": 1.0095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_259",
+          "via_53"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08956266345504726,
+        "layer": "inner5",
+        "segmentIndices": [
+          30,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_54_preloaded_source_trace_234",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_54] and trace trace[port[pcb_port_169], port[pcb_port_505], port[pcb_port_505]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_54",
+          "pcb_trace_id": "preloaded_source_trace_234",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.9095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_234",
+          "via_54"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_54_preloaded_source_trace_254",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_54] and trace trace[port[pcb_port_157], port[pcb_port_493], port[pcb_port_493]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_54",
+          "pcb_trace_id": "preloaded_source_trace_254",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.7595800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_254",
+          "via_54"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_54_preloaded_source_trace_259",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_54] and trace trace[port[pcb_port_162], port[pcb_port_498], port[pcb_port_498]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_54",
+          "pcb_trace_id": "preloaded_source_trace_259",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.2040415,
+            "y": 1.0095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_259",
+          "via_54"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_55_preloaded_source_trace_233",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_55] and trace trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] are too close (clearance: 0.092mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_55",
+          "pcb_trace_id": "preloaded_source_trace_233",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.0915970500377864,
+          "center": {
+            "x": -4.054041499999999,
+            "y": 0.9095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_233",
+          "via_55"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09159705003778645,
+        "layer": "top",
+        "segmentIndices": [
+          33,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_58_preloaded_source_trace_256",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_58] and trace trace[port[pcb_port_159], port[pcb_port_495], port[pcb_port_495]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_58",
+          "pcb_trace_id": "preloaded_source_trace_256",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -5.1290415,
+            "y": 0.8095800000000004
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_256",
+          "via_58"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner5",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_60_preloaded_source_trace_233",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_60] and trace trace[port[pcb_port_171], port[pcb_port_509], port[pcb_port_509]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_60",
+          "pcb_trace_id": "preloaded_source_trace_233",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -4.054041499999999,
+            "y": 0.9095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_233",
+          "via_60"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner4",
+        "segmentIndices": [
+          5,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_62_preloaded_source_trace_251",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_62] and trace trace[port[pcb_port_154], port[pcb_port_490], port[pcb_port_490]] are too close (clearance: 0.089mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_62",
+          "pcb_trace_id": "preloaded_source_trace_251",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08936,
+          "center": {
+            "x": -3.5040414999999996,
+            "y": 0.40958000000000006
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_251",
+          "via_62"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08936,
+        "layer": "inner6",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_63_preloaded_source_trace_230",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_63] and trace trace[port[pcb_port_165], port[pcb_port_508], port[pcb_port_508]] are too close (clearance: 0.095mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_63",
+          "pcb_trace_id": "preloaded_source_trace_230",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09492000000000178,
+          "center": {
+            "x": -4.804041499999999,
+            "y": 0.6095800000000002
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_230",
+          "via_63"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09492000000000178,
+        "layer": "inner4",
+        "segmentIndices": [
+          19,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_via_trace_clearance_error",
+          "pcb_via_trace_clearance_error_id": "via_trace_clearance_via_63_preloaded_source_trace_245",
+          "error_type": "pcb_via_trace_clearance_error",
+          "message": "Via pcb_via[#via_63] and trace trace[port[pcb_port_148], port[pcb_port_484], port[pcb_port_484]] are too close (clearance: 0.095mm, minimum: 0.1mm)",
+          "pcb_via_id": "via_63",
+          "pcb_trace_id": "preloaded_source_trace_245",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.09492000000000178,
+          "center": {
+            "x": -2.2540414999999996,
+            "y": 0.10958000000000001
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_245",
+          "via_63"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.09492000000000178,
+        "layer": "inner6",
+        "segmentIndices": [
+          25,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_pad_trace_clearance_error",
+          "pcb_pad_trace_clearance_error_id": "pad_trace_clearance_pcb_smtpad_575_preloaded_source_trace_238",
+          "error_type": "pcb_pad_trace_clearance_error",
+          "message": "Pad pcb_port[#pcb_port_575] and trace trace[port[pcb_port_172], port[pcb_port_511], port[pcb_port_511]] are too close (clearance: 0.085mm, minimum: 0.1mm)",
+          "pcb_pad_id": "pcb_smtpad_575",
+          "pcb_trace_id": "preloaded_source_trace_238",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08487145366061155,
+          "center": {
+            "x": -4.804041499999999,
+            "y": 1.7095800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_238",
+          "pcb_smtpad_575"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08487145366061186,
+        "layer": "bottom",
+        "segmentIndices": [
+          6,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_pad_trace_clearance_error",
+          "pcb_pad_trace_clearance_error_id": "pad_trace_clearance_pcb_smtpad_581_preloaded_source_trace_242",
+          "error_type": "pcb_pad_trace_clearance_error",
+          "message": "Pad pcb_port[#pcb_port_581] and trace trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] are too close (clearance: 0.085mm, minimum: 0.1mm)",
+          "pcb_pad_id": "pcb_smtpad_581",
+          "pcb_trace_id": "preloaded_source_trace_242",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.0848714536606131,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.6595800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_242",
+          "pcb_smtpad_581"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08487145366061266,
+        "layer": "bottom",
+        "segmentIndices": [
+          14,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_pad_trace_clearance_error",
+          "pcb_pad_trace_clearance_error_id": "pad_trace_clearance_pcb_smtpad_583_preloaded_source_trace_242",
+          "error_type": "pcb_pad_trace_clearance_error",
+          "message": "Pad pcb_port[#pcb_port_583] and trace trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] are too close (clearance: 0.085mm, minimum: 0.1mm)",
+          "pcb_pad_id": "pcb_smtpad_583",
+          "pcb_trace_id": "preloaded_source_trace_242",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08487145366061138,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.6595800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_242",
+          "pcb_smtpad_583"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08487145366061169,
+        "layer": "bottom",
+        "segmentIndices": [
+          16,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_pad_trace_clearance_error",
+          "pcb_pad_trace_clearance_error_id": "pad_trace_clearance_pcb_smtpad_585_preloaded_source_trace_242",
+          "error_type": "pcb_pad_trace_clearance_error",
+          "message": "Pad pcb_port[#pcb_port_585] and trace trace[port[pcb_port_175], port[pcb_port_506], port[pcb_port_506]] are too close (clearance: 0.087mm, minimum: 0.1mm)",
+          "pcb_pad_id": "pcb_smtpad_585",
+          "pcb_trace_id": "preloaded_source_trace_242",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08685999999999994,
+          "center": {
+            "x": -5.2040415,
+            "y": 0.6595800000000003
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_242",
+          "pcb_smtpad_585"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08685999999999994,
+        "layer": "bottom",
+        "segmentIndices": [
+          17,
+          0
+        ]
+      },
+      {
+        "error": {
+          "type": "pcb_pad_trace_clearance_error",
+          "pcb_pad_trace_clearance_error_id": "pad_trace_clearance_pcb_smtpad_573_preloaded_source_trace_243",
+          "error_type": "pcb_pad_trace_clearance_error",
+          "message": "Pad pcb_port[#pcb_port_573] and trace trace[port[pcb_port_179], port[pcb_port_502], port[pcb_port_502]] are too close (clearance: 0.085mm, minimum: 0.1mm)",
+          "pcb_pad_id": "pcb_smtpad_573",
+          "pcb_trace_id": "preloaded_source_trace_243",
+          "minimum_clearance": 0.1,
+          "actual_clearance": 0.08487145366061144,
+          "center": {
+            "x": -5.7790415,
+            "y": 0.15958000000000028
+          }
+        },
+        "status": "confirmed",
+        "pair": [
+          "preloaded_source_trace_243",
+          "pcb_smtpad_573"
+        ],
+        "sameNet": false,
+        "independentClearance": 0.08487145366061183,
+        "layer": "bottom",
+        "segmentIndices": [
+          15,
+          0
+        ]
+      }
+    ]
   }
 ]

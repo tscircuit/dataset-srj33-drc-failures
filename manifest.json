@@ -5,8 +5,8 @@
   "sourceRepository": "https://github.com/tscircuit/tscircuit-autorouter",
   "sourceIssueCount": 191,
   "candidateCount": 96,
-  "sampleCount": 15,
-  "uniqueInputCount": 15,
+  "sampleCount": 16,
+  "uniqueInputCount": 16,
   "router": {
     "repository": "https://github.com/tscircuit/tscircuit-autorouter",
     "commit": "934cfed20151661b6ce1aa00827b1fc1e69ce28c",
@@ -568,6 +568,43 @@
         "verifiedErrorCount": 3,
         "status": "all-errors-confirmed"
       }
+    },
+    {
+      "id": "sample057",
+      "issueNumber": null,
+      "issueUrl": null,
+      "issueTitle": "AM62L32-to-MT53E1G16D1ZW LPDDR4 no-via-in-pad fanout handoff",
+      "issueCreatedAt": null,
+      "sourceUrl": "https://github.com/tscircuit/core/blob/b545131935ffe954ebdc496c5fc9363999230bda/tests/fixtures/create-am62l-lpddr4-fanout.tsx",
+      "sourceJsonPath": "third autorouting phase with continuous per-net copper and explicit handoff terminals",
+      "input": "samples/sample057.json",
+      "routed": "routed/sample057.json",
+      "evidence": "evidence/sample057.json",
+      "inputSha256": "ffe623976a979426ead87f4306512398a095b709a19762307647358caef99dca",
+      "routedSha256": "3bf64156f6d87c2c386b8778a76a7bf36906119b08e61be3ef8b99da395f587d",
+      "evidenceSha256": "10cc006588bde94cec8ee923747206667d7869678de5c08fed046ee7eb735329",
+      "drcErrorCount": 69,
+      "drcErrorTypes": {
+        "pcb_pad_trace_clearance_error": 5,
+        "pcb_trace_error": 17,
+        "pcb_via_trace_clearance_error": 47
+      },
+      "traceCount": 2,
+      "durationMs": 1513.392,
+      "duplicateOf": null,
+      "pipeline9Benchmark": {
+        "solverName": "AutoroutingPipelineSolver9_PreloadedTraceGraph",
+        "scenarioName": "sample057",
+        "relaxedDrcPassed": false,
+        "drcErrorCount": 69,
+        "traceCount": 2,
+        "elapsedTimeMs": 1513.392
+      },
+      "baselinePipeline": 9,
+      "authenticity": {
+        "verifiedErrorCount": 69,
+        "status": "all-errors-confirmed"
+      }
     }
   ],
   "authenticityAudit": {
@@ -587,20 +624,20 @@
     "runnerArch": "ARM64",
     "workflowRunUrl": "https://github.com/tscircuit/tscircuit-autorouter/actions/runs/33986579884",
     "previousDatasetCommit": "f566b62be0f83395d9ab63ddc068f9d645b68b16",
-    "candidateCount": 37,
+    "candidateCount": 38,
     "statusCounts": {
       "drc-passed": 16,
-      "retained": 15,
+      "retained": 16,
       "unconfirmed-errors": 6
     },
     "resultArchive": "audit/authenticity-results.json.gz",
-    "resultArchiveSha256": "91a41752c4089aeb47135d644fb6254beb97fd2d8e32a291979e46e396ba514b",
+    "resultArchiveSha256": "062b45ac07936e8a10a6ad7d612072683f6a8d0bd3dfe527ea558ac227622c51",
     "selectionFile": "audit/authenticity-selection.json",
-    "selectionSha256": "5cf4a07e2a8156b8d5cb496c43960eb8ad9b4bbddda0c936cd8bdba06e804f87",
+    "selectionSha256": "d7e557258b5aa1aa47c7d1c0b912436e1c85ce2e364adea00b712acf7d8554d5",
     "geometryFile": "audit/independent-geometry.json",
-    "geometrySha256": "e71d80280bfbc187a85fd2cdaf203ad21ffa9487999d3f998a3f2db0f8f5962a",
+    "geometrySha256": "25ee37ac252a361fec17649f1945da8c7852eea9ce306fb295f382a3ebc015e6",
     "runtimeLockSha256": "ef5e5ef30348ee8672d334c4ab6f8ad82910efb095b6506fd3c98eed7091d9a8",
-    "verifiedErrorCount": 324,
+    "verifiedErrorCount": 393,
     "method": "Independent Shapely distances on original SRJ copper, declared identity connectivity without coordinate-based net merging, shared-layer checks, and conservative inscribed copper for ambiguous legacy multi-layer rectangles. Every reported error must be confirmed; incomplete endpoint evidence and ambiguous cases are excluded."
   }
 }

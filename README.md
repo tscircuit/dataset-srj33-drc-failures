@@ -1,7 +1,7 @@
 # dataset-srj33-drc-failures
 
-15 distinct SRJs that complete Pipeline 9 routing and retain independently confirmed
-relaxed DRC violations (324 reported errors). All saved routed outputs and evidence
+16 distinct SRJs that complete Pipeline 9 routing and retain independently confirmed
+relaxed DRC violations (393 reported errors). All saved routed outputs and evidence
 use the same corrected converter and pinned Pipeline 9 runtime.
 
 ```sh
@@ -24,6 +24,8 @@ The [Blacksmith audit](https://github.com/tscircuit/tscircuit-autorouter/actions
 `AutoroutingPipelineSolver9_PreloadedTraceGraph`, effort 1, Bun 1.4.1 on ARM64,
 and router commit `934cfed20151661b6ce1aa00827b1fc1e69ce28c`.
 The per-input limit was 30 minutes, with eight concurrent workers.
+`sample057` was run separately with the same router commit, solver, effort, and
+Bun version on Darwin ARM64; its exact environment is recorded in the result archive.
 
 The converter now preserves legacy pad metadata and split pad geometry, respects
 explicit pad ownership, retains pre-existing trace connectivity, and preserves
@@ -44,7 +46,9 @@ identity mappings are excluded even if other errors appear valid. The checks use
 the benchmark's relaxed 0.1 mm trace/pad/via clearance rules on the supplied SRJ;
 they do not establish validity of fabrication rules absent from that input.
 
-Results: 16 drc-passed, 15 retained, 6 unconfirmed-errors.
+Original audit results: 16 drc-passed, 15 retained, 6 unconfirmed-errors.
+`sample057` adds one independently confirmed retained case, bringing the published
+set to 16.
 
 - DRC passes removed: sample001, sample011, sample012, sample013, sample033, sample034, sample035, sample036, sample037, sample038, sample039, sample040, sample041, sample042, sample043, sample047.
 - Unconfirmed cases excluded: sample004, sample010, sample020, sample025, sample032, sample052.
@@ -52,12 +56,19 @@ Results: 16 drc-passed, 15 retained, 6 unconfirmed-errors.
 
 ## Evidence
 
-- `samples/`: original SRJ inputs, unchanged.
+- `samples/`: SRJ inputs; original audit inputs are unchanged, and any source-derived case is documented below.
 - `routed/`: input context with preloaded and newly routed copper combined.
 - `evidence/`: solver status, effective input, point-pair SRJ, raw routed traces, converted Circuit JSON, and exact DRC errors.
 - `audit/independent-geometry.json`: per-error object IDs, net comparison, shared layer, segment indices, and independently measured clearance.
-- `audit/authenticity-selection.json`: all 37 inclusion/exclusion decisions.
-- `audit/authenticity-results.json.gz`: self-contained inputs and complete results for all 37 cases, including removed cases; SHA-256 pinned in the manifest.
+- `audit/authenticity-selection.json`: all 38 inclusion/exclusion decisions.
+- `audit/authenticity-results.json.gz`: self-contained inputs and complete results for all 38 cases, including removed cases; SHA-256 pinned in the manifest.
+
+`sample057` is derived from tscircuit core's AM62L32-to-MT53E1G16D1ZW LPDDR4
+no-via-in-pad fanout fixture. It preserves the solver-emitted route and via
+coordinates, maps breakout segments to their root connections, joins only touching
+segments of each already routed net, and leaves the existing RESET handoff for
+Pipeline 9. Two terminal obstacles mark that fixture's existing handoff points; no
+route or via coordinates were invented.
 
 The manifest records the source report, file hashes, environment, and audit run.
 Earlier collection/filtering evidence remains under `audit/`; it is historical.
@@ -101,6 +112,7 @@ the published membership contains exactly the cases whose errors all pass.
 | [sample054](samples/sample054.json) | [<board#31410 name=".CORNE_CHOCOLATE_V4_1_LEFT" />](https://github.com/tscircuit/tscircuit-autorouter/blob/84a1d769eb1877c34041fefae1ddc8642957696f/fixtures/bug-reports/bugreport94-56fa2e/bugreport94-56fa2e.json) | 5 |
 | [sample055](samples/sample055.json) | [bugreport96-full-gameboy-no-breakout](https://github.com/tscircuit/tscircuit-autorouter/blob/84a1d769eb1877c34041fefae1ddc8642957696f/fixtures/bug-reports/bugreport96-full-gameboy-no-breakout/bugreport96-full-gameboy-no-breakout.srj.json) | 31 |
 | [sample056](samples/sample056.json) | [bugreport99-nrf52810-drc-identity-swap](https://github.com/tscircuit/tscircuit-autorouter/blob/84a1d769eb1877c34041fefae1ddc8642957696f/fixtures/bug-reports/bugreport99-nrf52810-drc-identity-swap/bugreport99-nrf52810-drc-identity-swap.srj.json) | 3 |
+| [sample057](samples/sample057.json) | [AM62L32-to-MT53E1G16D1ZW LPDDR4 no-via-in-pad fanout](https://github.com/tscircuit/core/blob/b545131935ffe954ebdc496c5fc9363999230bda/tests/fixtures/create-am62l-lpddr4-fanout.tsx) | 69 |
 
 ## Provenance
 

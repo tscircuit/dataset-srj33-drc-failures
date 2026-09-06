@@ -339,5 +339,15 @@
       "confirmed": 3
     },
     "inputSha256": "9167d70e320edc3bb42c0d1e8bb99989473e829d7f708ee83fcc8b2bfc958273"
+  },
+  {
+    "id": "sample057",
+    "status": "retained",
+    "solverStatus": "qualifies",
+    "drcErrorCount": 69,
+    "independentCounts": {
+      "confirmed": 69
+    },
+    "inputSha256": "ffe623976a979426ead87f4306512398a095b709a19762307647358caef99dca"
   }
 ]

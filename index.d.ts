@@ -23,5 +23,6 @@ export declare const sample053: SimpleRouteJson
 export declare const sample054: SimpleRouteJson
 export declare const sample055: SimpleRouteJson
 export declare const sample056: SimpleRouteJson
-export declare const samples: Record<"sample002" | "sample003" | "sample005" | "sample006" | "sample044" | "sample045" | "sample046" | "sample048" | "sample049" | "sample050" | "sample051" | "sample053" | "sample054" | "sample055" | "sample056", SimpleRouteJson>
+export declare const sample057: SimpleRouteJson
+export declare const samples: Record<"sample002" | "sample003" | "sample005" | "sample006" | "sample044" | "sample045" | "sample046" | "sample048" | "sample049" | "sample050" | "sample051" | "sample053" | "sample054" | "sample055" | "sample056" | "sample057", SimpleRouteJson>
 export default samples
