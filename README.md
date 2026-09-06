@@ -59,6 +59,7 @@ set to 16.
 - `samples/`: SRJ inputs; original audit inputs are unchanged, and any source-derived case is documented below.
 - `routed/`: input context with preloaded and newly routed copper combined.
 - `evidence/`: solver status, effective input, point-pair SRJ, raw routed traces, converted Circuit JSON, and exact DRC errors.
+- `snapshots/`: route-focused SVG previews generated from the pinned autorouter runtime.
 - `audit/independent-geometry.json`: per-error object IDs, net comparison, shared layer, segment indices, and independently measured clearance.
 - `audit/authenticity-selection.json`: all 38 inclusion/exclusion decisions.
 - `audit/authenticity-results.json.gz`: self-contained inputs and complete results for all 38 cases, including removed cases; SHA-256 pinned in the manifest.
@@ -113,6 +114,8 @@ the published membership contains exactly the cases whose errors all pass.
 | [sample055](samples/sample055.json) | [bugreport96-full-gameboy-no-breakout](https://github.com/tscircuit/tscircuit-autorouter/blob/84a1d769eb1877c34041fefae1ddc8642957696f/fixtures/bug-reports/bugreport96-full-gameboy-no-breakout/bugreport96-full-gameboy-no-breakout.srj.json) | 31 |
 | [sample056](samples/sample056.json) | [bugreport99-nrf52810-drc-identity-swap](https://github.com/tscircuit/tscircuit-autorouter/blob/84a1d769eb1877c34041fefae1ddc8642957696f/fixtures/bug-reports/bugreport99-nrf52810-drc-identity-swap/bugreport99-nrf52810-drc-identity-swap.srj.json) | 3 |
 | [sample057](samples/sample057.json) | [AM62L32-to-MT53E1G16D1ZW LPDDR4 no-via-in-pad fanout](https://github.com/tscircuit/core/blob/b545131935ffe954ebdc496c5fc9363999230bda/tests/fixtures/create-am62l-lpddr4-fanout.tsx) | 69 |
+
+[View the sample057 route snapshot](snapshots/sample057.svg).
 
 ## Provenance
 
